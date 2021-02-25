@@ -2,14 +2,15 @@ import React from 'react'
 import { Header } from '../header'
 import { LeftMenu } from '../left-menu'
 import { Footer } from '../footer'
+import { Title, Wrapper } from './app.styled'
 
 export const App = () => {
   return (
-    <div>
-      <h2> Smth smth </h2>
+    <Wrapper>
+      <Title> Smth smth </Title>
       <Header />
       <LeftMenu />
       <Footer />
-    </div>
+    </Wrapper>
   )
 }
