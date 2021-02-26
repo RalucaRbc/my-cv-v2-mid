@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  border: 15px dotted pink;
+  /* border: 15px dotted pink; */
 `
 
 export const Title = styled.h1`
