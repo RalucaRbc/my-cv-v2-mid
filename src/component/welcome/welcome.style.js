@@ -1,19 +1,24 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const StyledCreator=styled.div`
+export const Wrapper = styled.div`
+  display: block;
+`
+export const CommonTitle = css`
   color: #707070;
+  font-weight: 500;
+  text-align: center;
+`
+export const Name = styled.div`
+  ${CommonTitle}
   font-size: 48px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  `
+`
 
-export const StyledJob=styled.div`
-  color: #707070;
+export const Job = styled.div`
+  ${CommonTitle}
   font-size: 36px;
+`
+export const Subtitle = styled.div`
+  font-size: 22px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #808080;
 `
