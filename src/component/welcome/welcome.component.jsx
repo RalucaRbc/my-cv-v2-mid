@@ -1,14 +1,26 @@
-import React from 'react'
-import * as WS from './welcome.style'
-import { Header } from '../header/header.component'
+import React, { useEffect, useState } from "react";
+import * as WS from "./welcome.style";
+import { Header } from "../header/header.component";
 
-export const Welcome = ({ creator, job }) => {
+export const Welcome = () => {
+  const [data, saveData] = useState({});
+  useEffect(() => {
+    // HERE= all data to be taken from server
+    fetch("http://localhost:3800/welcome")
+      .then((response) => response.json())
+      .then((response) => {
+        console.log(response);
+        saveData(response);
+      });
+  }, []);
+  console.log(data);
+  const { title, name, job, subtitle } = data;
   return (
     <WS.Wrapper>
-      <Header title='Welcome to my CV'/>
-      <WS.Name>Raluca Ghintuiala</WS.Name>
-      <WS.Job>Junior Web Developer</WS.Job>
-      <WS.Subtitle>About Me</WS.Subtitle>
+      <Header title={title} />
+      <WS.Name>{name}</WS.Name>
+      <WS.Job>{job}</WS.Job>
+      <WS.Subtitle>{subtitle}</WS.Subtitle>
     </WS.Wrapper>
-  )
-}
+  );
+};
