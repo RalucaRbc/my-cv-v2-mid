@@ -1,6 +1,8 @@
 {
   "welcome": {
     "title": "Welcome",
-    "name": "Raluca Ghintuiala"
+    "name": "Raluca Ghintuiala",
+    "job" :"Junior Web Developer",
+    "subtitle": "About Me"
   }
 }
