@@ -39,7 +39,8 @@ export const Welcome = () => {
       </Cell>
       <Cell >
         <Button>
-          Download CV
+          <span className="icon__download"></span>
+          <span className="text">Download CV</span> 
         </Button>
       </Cell>
     </>

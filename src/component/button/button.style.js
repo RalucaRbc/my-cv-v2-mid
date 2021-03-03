@@ -10,4 +10,13 @@ export const BlueDownload = styled.button`
   font-size: 10px;
   font-weight: 900;
   border: 0;
+
+  & .text {
+    /* color: red; */
+  }
+
+  & .icon__download {
+    margin-right: 12px;
+  }
 `
+
