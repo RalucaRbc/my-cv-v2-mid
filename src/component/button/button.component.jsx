@@ -1,6 +1,10 @@
 import React from "react";
-import { BlueDownload } from "./button.style";
+import { StyledButton, StyledDisc } from "./button.style";
 
-export const Button = ({ children }) => {
-  return <BlueDownload>{children}</BlueDownload>;
+export const Button = ({ children, type }) => {
+  return type === "disc" ? (
+    <StyledDisc>{children}</StyledDisc>
+  ) : (
+    <StyledButton>{children}</StyledButton>
+  );
 };

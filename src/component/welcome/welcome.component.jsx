@@ -37,10 +37,15 @@ export const Welcome = () => {
       <Cell>
         <WS.DescriptionBox>{description}</WS.DescriptionBox>
       </Cell>
-      <Cell >
+      <Cell jc="center" >
         <Button>
-          <span className="icon__download"></span>
+          <span className="icon__download"/>
           <span className="text">Download CV</span> 
+        </Button>
+      </Cell>
+      <Cell jc="center" >
+        <Button type="disc">
+          <span className="icon__arrow-down"/>
         </Button>
       </Cell>
     </>
