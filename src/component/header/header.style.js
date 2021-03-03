@@ -4,7 +4,6 @@ export const StyledHeader=styled.div`
   height: 60px;
   background-color: #D52027;
   padding: 0 36px;
-  margin-bottom: 2.5rem;
   margin-left: -36px;
   margin-right: -36px;
 `

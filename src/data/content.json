@@ -1,8 +1,9 @@
 {
   "welcome": {
-    "title": "Welcome",
+    "title": "Welcome to My CV",
     "name": "Raluca Ghintuiala",
     "job" :"Junior Web Developer",
-    "subtitle": "About Me"
+    "subtitle": "About Me",
+    "description": "dfev"
   }
 }
