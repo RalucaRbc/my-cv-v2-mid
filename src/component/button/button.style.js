@@ -9,6 +9,9 @@ export const StyledDisc = styled.button`
   height: 40px;
   border: 0;
   background-color: ${({ color }) => color ? color : '#50d166'};
+  /*
+  background-color: ${({ color }) => color || '#50d166'};
+    */
   color: white;
   margin-top: 20px;
 

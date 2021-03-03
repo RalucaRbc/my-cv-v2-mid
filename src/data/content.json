@@ -5,5 +5,9 @@
     "job" :"Junior Web Developer",
     "subtitle": "About Me",
     "description": "dfev"
+  },
+  "about-me": {
+    "title": "About Me Section"
+
   }
 }
