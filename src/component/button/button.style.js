@@ -8,13 +8,14 @@ export const StyledDisc = styled.button`
   width: 40px;
   height: 40px;
   border: 0;
-  background-color: #50d166;
+  background-color: ${({ color }) => color ? color : '#50d166'};
   color: white;
   margin-top: 20px;
 
   & > span {
     /*  */
   }
+  
 `;
 
 export const StyledButton = styled.button`

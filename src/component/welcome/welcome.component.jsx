@@ -44,7 +44,7 @@ export const Welcome = () => {
         </Button>
       </Cell>
       <Cell jc="center" >
-        <Button type="disc">
+        <Button type="disc" bgCuloare="#50d166">
           <span className="icon__arrow-down"/>
         </Button>
       </Cell>
