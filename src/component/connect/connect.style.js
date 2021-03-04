@@ -9,7 +9,7 @@ export const StyledImage = styled.div`
   margin-top: 70px;
   border: 10px solid white;
   position: relative;
-  
+
   &::after {
     content: "";
     background-image: url(${({ path }) => path});
@@ -17,9 +17,14 @@ export const StyledImage = styled.div`
     background-position: center center;
     border-radius: 4px;
     position: absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
+`;
+
+export const StyledIcon = styled.i`
+  font-size: ${({ icon }) => icon === "codewars" ? '48' : '30'}px;
+  
 `;

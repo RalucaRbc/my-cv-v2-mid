@@ -8,6 +8,78 @@
   },
   "about-me": {
     "title": "Let's Connect",
-    "avatarPath": "/raluca.jpg"
+    "avatarPath": "/raluca.jpg",
+    "socialList": [
+      {
+        "icon": "codetap",
+        "title": "CodeTap",
+        "description": "Junior Web Developer at CodeTap and I'm so proud because of this",
+        "label": "CodeTap Academy is right here",
+        "link": "https://codetap.academy"
+      },
+      {
+        "icon": "github",
+        "title": "GitHub",
+        "description": "descriptiongithub",
+        "label": "Find me on GitHub",
+        "link": "https://www.github.com/RalucaRbc"
+      },
+      {
+        "icon": "linkedin",
+        "title": "LinkedIn",
+        "description": "descriptionlinkedin",
+        "label": "Find me on LinkedIn",
+        "link": "https://www.linkedin.com/in/raluca-ghintuiala-22b019206/"
+      },
+      {
+        "icon": "stackoverflow",
+        "title": "Stack Overflow",
+        "description": "",
+        "label": "Stackoverflow",
+        "link": "https://www.stackoverflow.com"
+      },
+      {
+        "icon": "codewars",
+        "title": "Codewars",
+        "description": "",
+        "label": "Codewars",
+        "link": "https://www.codewars.com"
+      },
+      {
+        "icon": "udemy",
+        "title": "Udemy",
+        "description": "",
+        "label": "Udemy",
+        "link": "https://www.udemy.com"
+      },
+      {
+        "icon": "facebook",
+        "title": "Facebook",
+        "description": "",
+        "label": "Find me on Facebook",
+        "link": "https://www.facebook.com/raluca.ghintuiala/"
+      },
+      {
+        "icon": "skype",
+        "title": "Skype",
+        "description": "",
+        "label": "Skype",
+        "link": "https://www.skype.com"
+      },
+      {
+        "icon": "instagram",
+        "title": "Instagram",
+        "description": "",
+        "label": "Find me on Instagram",
+        "link": "https://www.instagram.com/ralucaghintuiala/"
+      },
+      {
+        "icon": "twitter",
+        "title": "Twitter",
+        "description": "",
+        "label": "Twitter",
+        "link": "https://www.twitter.com"
+      }
+    ]
   }
 }

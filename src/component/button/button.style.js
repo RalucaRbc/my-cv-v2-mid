@@ -5,8 +5,8 @@ export const StyledDisc = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: ${({ size }) => size ? size : '40px'};
+  height: ${({ size }) => size ? size : '40px'};
   border: 0;
   background-color: ${({ color }) => color ? color : '#50d166'};
   /*
@@ -14,11 +14,6 @@ export const StyledDisc = styled.button`
     */
   color: white;
   margin-top: 20px;
-
-  & > span {
-    /*  */
-  }
-  
 `;
 
 export const StyledButton = styled.button`
@@ -33,11 +28,6 @@ export const StyledButton = styled.button`
   display:flex;
   justify-content: center;
   align-items: center;
-
-
-  & .text {
-    /* color: red; */
-  }
 
   & .icon__download {
     margin-right: 12px;
