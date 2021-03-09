@@ -26,5 +26,5 @@ export const StyledImage = styled.div`
 
 export const StyledIcon = styled.i`
   font-size: ${({ icon }) => (icon === "codewars" ? "48" : "30")}px;
-  pointer-events: none;
+  /* pointer-events: none; */
 `;

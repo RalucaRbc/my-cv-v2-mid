@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button } from "../button";
 import { Cell } from "../cell/cell.component";
 import { Header } from "../header";
+import { Infobox } from "../infobox";
 import { StyledIcon, StyledImage } from "./connect.style";
 
 export const Connect = () => {
@@ -35,16 +36,21 @@ export const Connect = () => {
       {socialList.map(({ icon }) => {
         return (
           <Cell span="1">
-            <Button onClick={() => selectMe(icon)} size="68px" type="disc" bgCuloare="#1875F0">
+            <Button
+              onClick={() => selectMe(icon)} 
+              size="68px" 
+              type="disc" 
+              bgCuloare={icon === selected?.icon ? "#D52027" : "#1875F0"}
+            >
               <StyledIcon className={`icon__${icon}`} icon={icon} />
             </Button>
           </Cell>
         );
       })}
 
-      <Cell jc="center">
-        <pre> {JSON.stringify(selected, null, 4)}</pre>
-      </Cell>
+      {selected && <Cell jc="center">
+        <Infobox {...selected} close={hide} />
+      </Cell>}
 
       <Cell jc="center">
         <Button type="disc" bgCuloare="#50d166">
