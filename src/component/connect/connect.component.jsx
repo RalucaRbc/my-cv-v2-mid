@@ -6,28 +6,27 @@ import { Infobox } from "../infobox";
 import { StyledIcon, StyledImage } from "./connect.style";
 
 export const Connect = () => {
-  const [info, salveazaInfo] = useState({ socialList: [] });
+  const [info, saveInfo] = useState({ socialList: [] });
   const [selected, updateSelected] = useState(null);
   useEffect(() => {
     // HERE= all data to be taken from server
     fetch("http://localhost:3800/connect")
       .then((r) => r.json())
-      .then((r) => salveazaInfo(r));
+      .then((r) => saveInfo(r));
   }, []);
 
   const hide = () => updateSelected(null);
-  const { title, avatarPath, socialList=[] } = info;
+  const { sectionTitle, avatarPath, socialList=[] } = info;
 
   const selectMe = icon => {
     console.log(icon);
-    // console.log(info);
     updateSelected(socialList.find(a => a.icon === icon));
   }
 
   return (
     <>
       <Cell>
-        <Header title={title}></Header>
+        <Header title={sectionTitle}></Header>
       </Cell>
       <Cell></Cell>
       <Cell>

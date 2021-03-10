@@ -16,26 +16,26 @@ export const Welcome = () => {
       });
   }, []);
   console.log(data);
-  const { title, name, job, subtitle, description } = data;
+  const { sectionTitle, creator, creatorTitle, creatorAboutMe, descriptionList } = data;
   return (
     <>
       <Cell>
-        <Header title={title} />
+        <Header title={sectionTitle} />
       </Cell>
       <Cell>
         <WS.RedYoutube></WS.RedYoutube>
       </Cell>
       <Cell>
-        <WS.Name>{name}</WS.Name>
+        <WS.Name>{creator}</WS.Name>
       </Cell>
       <Cell>
-        <WS.Job>{job}</WS.Job>
+        <WS.Job>{creatorTitle}</WS.Job>
       </Cell>
       <Cell>
-        <WS.Subtitle>{subtitle}</WS.Subtitle>
+        <WS.Subtitle>{creatorAboutMe}</WS.Subtitle>
       </Cell>
       <Cell>
-        <WS.DescriptionBox>{description}</WS.DescriptionBox>
+        <WS.DescriptionBox>{descriptionList}</WS.DescriptionBox>
       </Cell>
       <Cell jc="center" >
         <Button>

@@ -1,85 +1,88 @@
 {
   "welcome": {
-    "title": "Welcome to My CV",
-    "name": "Raluca Ghintuiala",
-    "job" :"Junior Web Developer",
-    "subtitle": "About Me",
-    "description": "dfev"
+    "sectionTitle": "Welcome to My CV",
+    "creator" :"Raluca Ghintuiala",
+    "creatorTitle": "Junior Web Developer",
+    "creatorAboutMe": "About Me",
+    "descriptionList" :[
+      "\n I am neither especially clever nor especially gifted. I am only very, very curious. \n (Albert Einstein) and my only purpose is to add a smile on every clients' face when they see the final result. ",
+      "That's why I can say I make or I am continuously trying to make the Front-End world a better place every day."
+    ]
   },
-  "connect": {
-    "title": "Let's Connect",
+  "connect":{
+    "sectionTitle": "Let's connect", 
     "avatarPath": "/raluca.jpg",
     "socialList": [
       {
         "icon": "codetap",
         "title": "CodeTap",
-        "description": "Junior Web Developer at CodeTap and I'm so proud because of this",
+        "description": "Junior Web Developer at CodeTap and I'm so proud of this",
         "label": "CodeTap Academy is right here",
         "link": "https://codetap.academy"
       },
       {
         "icon": "github",
         "title": "GitHub",
-        "description": "descriptiongithub",
+        "description": "Please check my profile on GitHub. There you will find many interesting projects and many more will come.",
         "label": "Find me on GitHub",
         "link": "https://www.github.com/RalucaRbc"
       },
       {
+        "icon": "facebook",
+        "title": "Facebook",
+        "description": "Want to see the other side of me? I have a busy personal life as well.",
+        "label": "Let's become friends me on Facebook",
+        "link": "https://www.facebook.com/raluca.ghintuiala/"
+      },
+      {
         "icon": "linkedin",
         "title": "LinkedIn",
-        "description": "descriptionlinkedin",
+        "description": "Check my profile on LinkedIn. Let's connect and strengthen our relationship there.",
         "label": "Find me on LinkedIn",
         "link": "https://www.linkedin.com/in/raluca-ghintuiala-22b019206/"
       },
       {
+        "icon": "instagram",
+        "title": "Instagram",
+        "description": "Want to see the other side of me? I have a busy personal life as well.",
+        "label": "Follow me on Instagram",
+        "link": "https://www.instagram.com/ralucaghintuiala/"
+      },
+      {
+        "icon": "udemy",
+        "title": "Udemy",
+        "description": "Check the Udemy progress I have made so far.",
+        "label": "Find me on Udemy",
+        "link": "https://www.udemy.com/user/raluca-ghintuiala/"
+      },
+      {
         "icon": "stackoverflow",
         "title": "Stack Overflow",
-        "description": "",
+        "description": "I will be present here soon.",
         "label": "Stackoverflow",
         "link": "https://www.stackoverflow.com"
       },
       {
         "icon": "codewars",
         "title": "Codewars",
-        "description": "",
+        "description": "I will be present here soon.",
         "label": "Codewars",
         "link": "https://www.codewars.com"
       },
       {
-        "icon": "udemy",
-        "title": "Udemy",
-        "description": "",
-        "label": "Udemy",
-        "link": "https://www.udemy.com"
-      },
-      {
-        "icon": "facebook",
-        "title": "Facebook",
-        "description": "",
-        "label": "Find me on Facebook",
-        "link": "https://www.facebook.com/raluca.ghintuiala/"
-      },
-      {
         "icon": "skype",
         "title": "Skype",
-        "description": "",
+        "description": "I will be present here soon.",
         "label": "Skype",
         "link": "https://www.skype.com"
       },
       {
-        "icon": "instagram",
-        "title": "Instagram",
-        "description": "",
-        "label": "Find me on Instagram",
-        "link": "https://www.instagram.com/ralucaghintuiala/"
-      },
-      {
         "icon": "twitter",
         "title": "Twitter",
-        "description": "",
+        "description": "I will be present here soon.",
         "label": "Twitter",
         "link": "https://www.twitter.com"
       }
     ]
-  }
+  }  
 }
