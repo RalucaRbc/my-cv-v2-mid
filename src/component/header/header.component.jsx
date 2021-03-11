@@ -7,7 +7,7 @@ export const Header = ({ title }) => {
   return (
     <HS.StyledHeader>
       <HS.StyledTitle>{title}</HS.StyledTitle>
-      <Cell jc="center">
+      <Cell jc="center" >
         <Button type="disc" bgCuloare="#D52027">
           <span className="icon__youtube"></span>
         </Button>

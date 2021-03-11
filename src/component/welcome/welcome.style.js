@@ -1,9 +1,5 @@
 import styled, { css } from "styled-components";
 
-export const RedYoutube = styled.div`
-  height: 100px;
-`;
-
 export const CommonTitle = css`
   color: #707070;
   font-weight: 500;

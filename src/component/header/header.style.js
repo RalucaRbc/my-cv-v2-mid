@@ -6,6 +6,8 @@ export const StyledHeader=styled.div`
   padding: 0 36px;
   margin-left: -36px;
   margin-right: -36px;
+  margin-bottom: 70px;
+
 `
 
 export const StyledTitle=styled.div`
@@ -15,4 +17,5 @@ export const StyledTitle=styled.div`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 30px;
 `

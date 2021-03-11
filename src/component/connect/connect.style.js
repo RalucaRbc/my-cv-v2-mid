@@ -6,7 +6,7 @@ export const StyledImage = styled.div`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
   transform: rotate(-2.5deg);
-  margin-top: 70px;
+  margin-top: 5px;
   border: 10px solid white;
   position: relative;
 

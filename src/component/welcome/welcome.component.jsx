@@ -23,9 +23,6 @@ export const Welcome = () => {
         <Header title={sectionTitle} />
       </Cell>
       <Cell>
-        <WS.RedYoutube></WS.RedYoutube>
-      </Cell>
-      <Cell>
         <WS.Name>{creator}</WS.Name>
       </Cell>
       <Cell>
@@ -38,7 +35,7 @@ export const Welcome = () => {
         <WS.DescriptionBox>{descriptionList}</WS.DescriptionBox>
       </Cell>
       <Cell jc="center" >
-        <Button>
+        <Button type="link" link="/raluca.jpg" download>
           <span className="icon__download"/>
           <span className="text">Download CV</span> 
         </Button>

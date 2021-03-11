@@ -16,12 +16,12 @@ export const Connect = () => {
   }, []);
 
   const hide = () => updateSelected(null);
-  const { sectionTitle, avatarPath, socialList=[] } = info;
+  const { sectionTitle, avatarPath, socialList = [] } = info;
 
-  const selectMe = icon => {
+  const selectMe = (icon) => {
     console.log(icon);
-    updateSelected(socialList.find(a => a.icon === icon));
-  }
+    updateSelected(socialList.find((a) => a.icon === icon));
+  };
 
   return (
     <>
@@ -36,9 +36,9 @@ export const Connect = () => {
         return (
           <Cell span="1">
             <Button
-              onClick={() => selectMe(icon)} 
-              size="68px" 
-              type="disc" 
+              onClick={() => selectMe(icon)}
+              size="68px"
+              type="disc"
               bgCuloare={icon === selected?.icon ? "#D52027" : "#1875F0"}
             >
               <StyledIcon className={`icon__${icon}`} icon={icon} />
@@ -47,9 +47,11 @@ export const Connect = () => {
         );
       })}
 
-      {selected && <Cell jc="center">
-        <Infobox {...selected} close={hide} />
-      </Cell>}
+      {selected && (
+        <Cell jc="center">
+          <Infobox {...selected} close={hide} />
+        </Cell>
+      )}
 
       <Cell jc="center">
         <Button type="disc" bgCuloare="#50d166">
