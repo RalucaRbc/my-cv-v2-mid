@@ -1,6 +1,5 @@
 import React from "react";
 import * as IS from "./infobox.style";
-import { StyledIcon } from "../connect/connect.style";
 import { Button } from "../button";
 import { Cell } from "../cell/cell.component";
 

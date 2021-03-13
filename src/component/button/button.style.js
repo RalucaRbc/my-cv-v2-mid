@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledDisc = styled.button`
+export const StyledDisc = styled.div`
   border-radius: 50%;
   display: flex;
   justify-content: center;
