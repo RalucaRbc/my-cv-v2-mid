@@ -16,7 +16,8 @@ export const StyledDisc = styled.div`
 `;
 
 export const StyledButton = styled.button`
-  background-color: #1875f0;
+  /* background-color: #1875f0; */
+  background-color: ${({ color }) => (color ? color : "#1875f0")};
   margin-top: 30px;
   border-radius: 20px;
   color: white;

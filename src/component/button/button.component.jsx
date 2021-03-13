@@ -11,6 +11,6 @@ export const Button = ({ children, type, bgCuloare, size, onClick, link }) => {
       {children}
     </StyledPillLink>
   ) : (
-    <StyledButton>{children}</StyledButton>
+    <StyledButton color={bgCuloare}>{children}</StyledButton>
   );
 };

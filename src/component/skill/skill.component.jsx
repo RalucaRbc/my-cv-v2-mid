@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button } from "../button";
 import { Cell } from "../cell/cell.component";
 import { Header } from "../header";
+import { StyledWrapper } from "../infobox/infobox.style";
 import { Subtitle } from "../subtitle/subtitle.component";
 import { DescriptionBox } from "../welcome/welcome.style";
 
@@ -36,11 +37,13 @@ export const Skill = () => {
           <Cell key={category}>
             <Subtitle title={category}></Subtitle>
             {skillList.map((lista) => {
-              const { icon, skills } = lista;
+              const { color, skills } = lista;
               return (
                 <div>
                   {skills.map((skill) => {
-                    return <div>{skill}</div>;
+                    return (
+                    <Button  bgCuloare={color} >{skill}</Button>
+                    );
                   })}
                 </div>
               );
